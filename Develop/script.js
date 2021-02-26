@@ -21,7 +21,6 @@ function generate() {
             break;
         }
     }
-//prompts asking about password the user would like
     if (questionLength) {
         if (confirm("Would you like to use lowercase letters?") == true) {
           lowerChoice = true
